@@ -24,7 +24,7 @@ def get_summary(text):
     return data['shortDescription']
 
 def extract_data(text):
-    soup = BeautifulSoup(text)    
+    soup = BeautifulSoup(text)
     title = soup.findAll('title')[0].getText().replace(' - News Liputan6.com', '')
     date = soup.findAll('time', {'class': 'read-page--header--author__datetime updated'})[0].getText()
     article = []
@@ -42,21 +42,21 @@ def write_file(id, url, title, date, content, summary, target_path):
     json_dict['date']=date
     json_dict['content']='\n'.join(content)
     json_dict['summary']=summary
-    
+
     with open(f"{target_path}/{id}.json", 'w') as json_file:
         json.dump(json_dict, json_file)
-    
+
 def proceed_one(url, path):
     response = requests.get(url)
     url = response.url
     id = get_id(url)
     title, date, article, summary = extract_data(response.text)
     write_file(id, url, title, date, article, summary, path)
-    
+
 def proceed(urls, path):
     for url in urls:
         proceed_one(url, path)
-        
+
 def thread_func(urls, path, num_thread=1):
     os.makedirs(path,exist_ok=True)
     threads = []
@@ -71,7 +71,7 @@ def thread_func(urls, path, num_thread=1):
 THREAD = 10
 urls = json.load(open('url.json'))
 
-thread_func(urls['dev_urls'][:100], 'data/raw/dev', THREAD)
-thread_func(urls['test_urls'][:100], 'data/raw/test', THREAD)
-thread_func(urls['train_urls'][:100], 'data/raw/train', THREAD)
+thread_func(urls['dev_urls'], 'data/raw/dev', THREAD)
+thread_func(urls['test_urls'], 'data/raw/test', THREAD)
+thread_func(urls['train_urls'], 'data/raw/train', THREAD)
 
