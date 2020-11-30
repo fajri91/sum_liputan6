@@ -51,7 +51,7 @@ python 5_make_data_files_presumm_mbert.py
 
 We also provide test set output as reported in our paper. You can download them [here](https://drive.google.com/file/d/10t5IzDXPCejNNZkVCgdI2KNt4CFxr6jG/view?usp=sharing).
 
-| Model                 | R1   | R1   | RL   |
+| Model                 | R1   | R2   | RL   |
 | ----------------------|:-----|------|-----:|
 | Lead-2                |36.68 | 20.23|33.71 |
 | PTGen                 |36.10 | 19.19|33.56 |    
