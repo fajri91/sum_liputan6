@@ -3,7 +3,7 @@
 ## About
 
 Liputan6 is the first large-scale Indonesian corpus for Abstractive and Extractive summarization. 
-This data is from October 2000 - October 2010, and has two sets:
+This data is from year 2000 - 2010, and has two sets:
 
 | Data          | Train    | Dev      | Test      |
 | ------------- | :-------:| --------:|  --------:|
