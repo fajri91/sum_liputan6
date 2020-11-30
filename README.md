@@ -2,8 +2,8 @@
 
 ## About
 
-Liputan6 is the first large-scale Indonesian corpus for Abstractive and Extractive summarization.
-This data has two sets:
+Liputan6 is the first large-scale Indonesian corpus for Abstractive and Extractive summarization. 
+This data is from October 2000 - October 2010, and has two sets:
 
 | Data          | Train    | Dev      | Test      |
 | ------------- | :-------:| --------:|  --------:|
