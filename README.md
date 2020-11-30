@@ -1,4 +1,4 @@
-# Liputan6: Summarization Corpus for Indonesian Language
+# Liputan6: Summarization Corpus for Indonesian
 
 ## About
 
