@@ -18,7 +18,7 @@ Fajri Koto, Jey Han Lau, and Timothy Baldwin. [_Liputan6: A Large-scale Indonesi
 ## Obtaining Liputan6 Data
 
 #### Disclaimer
-According to Indonesian Copyright Law Number 28 Year 2014, this corpus can be used for academic research. It is STRONGLY FORBIDDEN to use this corpus as well as any summarization models created using this corpus for commercialized activities.
+Although Liputan6 is a publicly available online news portal, according to Indonesian Copyright Law Number 28 Year 2014, this corpus can only be used for non-commercialized activities such as academic research. It is STRONGLY FORBIDDEN to use this corpus as well as any summarization models created using this corpus for commercialized activities.
 We highly encourage for another respective researcher to not re-distribute the dataset.
 
 #### Way1 - By filling the form
