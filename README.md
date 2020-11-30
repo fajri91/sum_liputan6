@@ -42,7 +42,7 @@ python 4_make_data_files_pg.py
 python 5_make_data_files_presumm_mbert.py
 ```
 
-## Training neural models:
+## Training neural models
 
 * Pointer Generator Network: [PG](https://github.com/becxer/pointer-generator/).
 * Bert-based summarization Model: [PreSumm](https://github.com/nlpyang/PreSumm).
