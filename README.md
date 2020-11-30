@@ -45,7 +45,7 @@ python 5_make_data_files_presumm_mbert.py
 ## Training neural models
 
 * Pointer Generator Network: [PG](https://github.com/becxer/pointer-generator/).
-* Bert-based summarization Model: [PreSumm](https://github.com/nlpyang/PreSumm).
+* Bert-based summarization Model: [PreSumm](https://github.com/nlpyang/PreSumm). IndoBERT model used in the paper can be found [here](https://huggingface.co/indolem/indobert-base-uncased).
 
 ## Test Set Output
 
