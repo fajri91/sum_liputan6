@@ -55,8 +55,11 @@ def proceed_one(url, path):
 
 def proceed(urls, path):
     for url in urls:
-        proceed_one(url, path)
-
+        try:
+            proceed_one(url, path)
+        except:
+            print('Failed to proceed ', url, '. Potentially the news has been deleted from Liputan6.')
+    
 def thread_func(urls, path, num_thread=1):
     os.makedirs(path,exist_ok=True)
     threads = []
