@@ -23,7 +23,7 @@ We highly encourage for another respective researcher to not re-distribute the d
 
 #### Way1 - By filling the form
 
-Please fill this [form](https://drive.google.com/file/d/17eZ6D-iKBA5rmD8KQg0vr9tvobqmWUT9/view?usp=sharing). A url to download Liputan6 corpus will be sent to your email address.
+Please fill this [form](https://docs.google.com/forms/d/1bFkimFsZoswKCbUa76yHqi9hizLrJYne-1G_r5unfww/edit?usp=sharing). A url to download Liputan6 corpus will be sent to your email address.
 
 #### Way2 - By running the codes
 
